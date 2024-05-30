@@ -31,7 +31,7 @@ export const RESUME_DATA = {
   summary:
     "As a Software Developer, I specialize in bringing ideas to life, leveraging my expertise in a variety of technologies to drive product development from inception to launch. With extensive experience spanning over 4 years, I have crafted robust and intuitive user interfaces using React.js, React Native, and Flutter. Additionally, my proficiency extends to backend technologies such as Node.js, enabling me to build scalable and efficient server-side solutions.",
   avatarUrl: "https://avatars.githubusercontent.com/u/138879096?v=4",
-  // personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "/",
   contact: {
     email: "aliumed844@gmail.com",
     tel: "+9647506911671",
@@ -222,6 +222,10 @@ export const RESUME_DATA = {
       ],
       description:
         "The official website for the Erbil Center for Reading and Memorizing the Holy Quran. (under construction)",
+      link: {
+        label: "/",
+        href: "/",
+      },
     },
     {
       title: "Shopping-list",
