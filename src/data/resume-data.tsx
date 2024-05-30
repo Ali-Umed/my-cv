@@ -18,261 +18,216 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { FacebookIcon } from "lucide-react";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Ali Umed",
+  initials: "AH",
+  location: "Shawaes, Erbil, iraq",
+  locationLink:
+    "https://www.google.com/maps/place/36%C2%B015'20.2%22N+44%C2%B006'51.4%22E/@36.2556099,44.1142652,17z/data=!3m1!4b1!4m4!3m3!8m2!3d36.2556099!4d44.1142652?entry=ttu",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Software Developer Focused on building intuitive and engaging user interfaces with meticulous attention to detail. Committed to delivering seamless user experiences through clean, efficient, and maintainable code.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Software Developer, I specialize in bringing ideas to life, leveraging my expertise in a variety of technologies to drive product development from inception to launch. With extensive experience spanning over 4 years, I have crafted robust and intuitive user interfaces using React.js, React Native, and Flutter. Additionally, my proficiency extends to backend technologies such as Node.js, enabling me to build scalable and efficient server-side solutions.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/138879096?v=4",
+  // personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "aliumed844@gmail.com",
+    tel: "+9647506911671",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Ali-Umed",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/ali-umed-076854286/",
         icon: LinkedInIcon,
       },
       {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
+        name: "facebook",
+        url: "https://www.facebook.com/ali.umed.376?mibextid=ZbWKwL",
+        icon: FacebookIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Erbil Polytechnic University",
+      degree:
+        "Graduated from Erbil Polytechnic University with a Bachelor's Degree in Information Systems Engineering (2020-2024), equipped with comprehensive knowledge and practical skills for tackling complex technological challenges.",
+      start: "2020",
+      end: "2024",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "Gateway",
+      link: "https://the-gw.com/",
+      badges: ["internship"],
+      title: "Frontend Developer",
+      start: "July 2023",
+      end: "September 2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "During my tenure as a Frontend Developer at Gateway from July to September 2023, I completed a summer internship at this prestigious web development firm. Collaborating closely with seasoned developers and designers, I contributed to the delivery of top-tier projects. Leveraging advanced technologies such as React.js, TypeScript, Git, GitHub, and Agile methodologies like Scrum, I ensured the successful execution of high-quality web solutions. Explore more about Gateway.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Self-Taught Developer",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Starter → Full Stack Developer",
+      start: "2020",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Embarked on a journey as a Self-Taught Developer in 2020, evolving from a Starter to a proficient Full Stack Developer. Starting with C++ and Java, I mastered the principles of object-oriented programming. Today, I excel in front-end development with React.js and TypeScript, backend development with Node.js, and database management using PostgreSQL. Additionally, I am adept at mobile development with Flutter, showcasing a diverse skill set and a relentless drive for continuous learning and growth.",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "freelancer",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "frontend Developer",
+      start: "2023",
+      description:
+        "Established a successful career as a freelance Frontend Developer since 2023, specializing in React.js and TypeScript. Known for delivering high-quality web solutions with precision and creativity, I bring a wealth of experience and a proven track record of exceeding client expectations. Committed to staying at the forefront of industry trends and technologies, I continuously strive to elevate my skills and deliver exceptional results.",
     },
   ],
   skills: [
+    "Co-Founder",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React",
+    "React Router",
+    "Redux/ Redux Kit",
+    "react native",
+    "Flutter",
+    "Tailwind",
+    "Git/GitHub",
+    "Teamwork",
+    "Sass",
+    "Vite",
+    "Scrum",
+    "Trello",
+    "Shadcn",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Supabase",
+    "Firebase",
+    "PostgreSQL",
+    "mySql",
+    "Java",
+    "c++",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Moon App (مانگ) (Co-Founder)",
       techStack: [
-        "Side Project",
+        "App Developer",
+        "Flutter",
+        "Firebase",
+        "Git/Github",
+        "UI/UX",
+        "Figma",
+        "UI/UX Designer",
+      ],
+      description:
+        "The premier Kurdish trivia app featuring Islamic questions and answers, now available on the Google Play Store and coming soon to the App Store.",
+      link: {
+        label: "مانگ",
+        href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
+      },
+    },
+    {
+      title: "Weather app",
+      techStack: [
+        "React",
         "TypeScript",
-        "Next.js",
+        "Git/Github",
         "Vite",
-        "GraphQL",
-        "WebRTC",
+        "UI/UX",
+        "vercel",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "A fully-featured Weather App developed with React, TypeScript, Supabase, delivering accurate forecasts and sreaching,store data, intuitive user experience.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "weather-app-tawny-zeta-38.vercel.app",
+        href: "https://weather-app-tawny-zeta-38.vercel.app/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "KurdWanderer (Founder)",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
         "React",
-        "Node.js",
-        "GraphQL",
+        "javaScript",
+        "Git/Github",
+        "Vite",
+        "UI/UX",
+        "vercel",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "Developed KurdWanderer, a travel companion app that records your global adventures on an interactive map, ensuring you never forget your memorable journeys and enabling you to share your wanderlust experiences with friends (under construction).",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "kurdwanderer.netlify.app",
+        href: "https://kurdwanderer.netlify.app/",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
+      title: "Calculator app",
+      techStack: ["React", "Type-Script", "Tailwind", "Git/Github", "Vite"],
+      description:
+        "A calculator web application It features a responsive design and a customizable theme switcher for light and dark modes and 3 theme for darkMode and 3 theme for light mode.",
+      link: {
+        label: "calculator-phi-black.vercel.app",
+        href: "https://calculator-phi-black.vercel.app/",
+      },
+    },
 
-        "TypeScript",
+    {
+      title: "React Quiz game app",
+      techStack: ["React", "Type-Script", "Tailwind", "Git/Github", "Vite"],
+      description:
+        "Now Working a local game, a dynamic React Quiz App designed for interactive learning experiences, featuring engaging quizzes and seamless navigation (under construction).",
+      link: {
+        label: "quiz-app-self-mu.vercel.app",
+        href: "https://quiz-app-self-mu.vercel.app/",
+      },
+    },
+    {
+      title: "Moon Backend",
+      techStack: [
         "React",
-        "Node.js",
-        "GraphQL",
+        "Type-Script",
+        "Tailwind",
+        "Git/Github",
+        "Vite",
+        "FireBase",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "Developed backend functionality for a website facilitating the addition of books, tests, and questions to the application, alongside implementing user permissions for enhanced security and control.",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "moon-backend.vercel.app",
+        href: "https://moon-backend.vercel.app/",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Erbil Center",
+      techStack: [
+        "Frontend Developer",
+        "React",
+        "Tailwind",
+        "Git/Github",
+        "Firebase",
+        "Figma",
+      ],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "The official website for the Erbil Center for Reading and Memorizing the Holy Quran. (under construction)",
+    },
+    {
+      title: "Shopping-list",
+      techStack: ["React", "java-Script", "Tailwind", "Git/Github"],
+      description:
+        "Streamline your shopping experience with an intuitive interface, allowing you to easily add, remove, and organize items—just like managing tasks in a to-do list.",
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "shoping-list-snowy.vercel.app",
+        href: "https://shoping-list-snowy.vercel.app/",
       },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
