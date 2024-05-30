@@ -71,7 +71,7 @@ export const RESUME_DATA = {
       start: "July 2023",
       end: "September 2023",
       description:
-        "During my tenure as a Frontend Developer at Gateway from July to September 2023, I completed a summer internship at this prestigious web development firm. Collaborating closely with seasoned developers and designers, I contributed to the delivery of top-tier projects. Leveraging advanced technologies such as React.js, TypeScript, Git, GitHub, and Agile methodologies like Scrum, I ensured the successful execution of high-quality web solutions. Explore more about Gateway.",
+        "During my tenure as a Frontend Developer at Gateway from July to September 2023, I completed a summer internship at this prestigious web development firm. Collaborating closely with seasoned developers and designers, I contributed to the delivery of top-tier projects. Leveraging advanced technologies such as React.js, TypeScript, Git, GitHub, and Agile methodologies like Scrum, I ensured the successful execution of high-quality web solutions.",
     },
     {
       company: "Self-Taught Developer",
