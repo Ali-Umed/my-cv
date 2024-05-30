@@ -81,6 +81,7 @@ export const RESUME_DATA = {
       link: "",
       description:
         "Embarked on a journey as a Self-Taught Developer in 2020, evolving from a Starter to a proficient Full Stack Developer. Starting with C++ and Java, I mastered the principles of object-oriented programming. Today, I excel in front-end development with React.js and TypeScript, backend development with Node.js, and database management using PostgreSQL. Additionally, I am adept at mobile development with Flutter, showcasing a diverse skill set and a relentless drive for continuous learning and growth.",
+      end: "",
     },
     {
       company: "freelancer",
@@ -90,6 +91,7 @@ export const RESUME_DATA = {
       link: "",
       description:
         "Established a successful career as a freelance Frontend Developer since 2023, specializing in React.js and TypeScript. Known for delivering high-quality web solutions with precision and creativity, I bring a wealth of experience and a proven track record of exceeding client expectations. Committed to staying at the forefront of industry trends and technologies, I continuously strive to elevate my skills and deliver exceptional results.",
+      end: "",
     },
   ],
   skills: [
