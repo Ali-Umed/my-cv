@@ -71,7 +71,7 @@ export const RESUME_DATA = {
       start: "July 2023",
       end: "September 2023",
       description:
-        "During my tenure as a Frontend Developer at Gateway from July to September 2023, I completed a summer internship at this prestigious web development firm. Collaborating closely with seasoned developers and designers, I contributed to the delivery of top-tier projects. Leveraging advanced technologies such as React.js, TypeScript, Git, GitHub, and Agile methodologies like Scrum, I ensured the successful execution of high-quality web solutions.",
+        "Completed a summer internship at Gateway, a prestigious web development firm.\nCollaborated closely with seasoned developers and designers to deliver top-tier projects.\nUtilized advanced technologies including React.js, TypeScript, Git, GitHub, and Agile methodologies such as Scrum.\nEnsured the successful execution of high-quality web solutions.\nGained practical experience in developing responsive and user-friendly web interfaces.\nEnhanced problem-solving skills by working on real-world projects and receiving mentorship from industry experts.",
     },
     {
       company: "Self-Taught Developer",
@@ -86,11 +86,15 @@ export const RESUME_DATA = {
     {
       company: "freelancer",
       badges: [],
-      title: "frontend Developer",
+      title: "Frontend Developer",
       start: "2023",
       link: "",
       description:
-        "Established a successful career as a freelance Frontend Developer since 2023, specializing in React.js and TypeScript. Known for delivering high-quality web solutions with precision and creativity, I bring a wealth of experience and a proven track record of exceeding client expectations. Committed to staying at the forefront of industry trends and technologies, I continuously strive to elevate my skills and deliver exceptional results.",
+        "Established a successful career as a freelance Frontend Developer since 2023, specializing in React.js and TypeScript.\n" +
+        "Known for delivering high-quality web solutions with precision and creativity.\n" +
+        "bring a wealth of experience and a proven track record of exceeding client expectations.\n" +
+        "Committed to staying at the forefront of industry trends and technologies.\n" +
+        "Continuously strive to elevate  skills and deliver exceptional results.",
       end: "",
     },
   ],
