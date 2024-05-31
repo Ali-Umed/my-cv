@@ -121,7 +121,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Moon App (مانگ) (Co-Founder)",
+      title: "Moon App(مانگ) (Co-Founder)",
       techStack: [
         "App Developer",
         "Flutter",
@@ -131,8 +131,7 @@ export const RESUME_DATA = {
         "Figma",
         "UI/UX Designer",
       ],
-      description:
-        "The premier Kurdish trivia app featuring Islamic questions and answers, now available on the Google Play Store and coming soon to the App Store.",
+      description: "",
       link: {
         label: "مانگ",
         href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
@@ -148,8 +147,7 @@ export const RESUME_DATA = {
         "UI/UX",
         "vercel",
       ],
-      description:
-        "A fully-featured Weather App developed with React, TypeScript, Supabase, delivering accurate forecasts and sreaching,store data, intuitive user experience.",
+      description: "",
       link: {
         label: "weather-app-tawny-zeta-38.vercel.app",
         href: "https://weather-app-tawny-zeta-38.vercel.app/",
@@ -159,14 +157,13 @@ export const RESUME_DATA = {
       title: "KurdWanderer (Founder)",
       techStack: [
         "React",
-        "javaScript",
+        "java-Script",
         "Git/Github",
         "Vite",
         "UI/UX",
         "vercel",
       ],
-      description:
-        "Developed KurdWanderer, a travel companion app that records your global adventures on an interactive map, ensuring you never forget your memorable journeys and enabling you to share your wanderlust experiences with friends (under construction).",
+      description: "under construction.",
       link: {
         label: "kurdwanderer.netlify.app",
         href: "https://kurdwanderer.netlify.app/",
@@ -175,8 +172,7 @@ export const RESUME_DATA = {
     {
       title: "Calculator app",
       techStack: ["React", "Type-Script", "Tailwind", "Git/Github", "Vite"],
-      description:
-        "A calculator web application It features a responsive design and a customizable theme switcher for light and dark modes and 3 theme for darkMode and 3 theme for light mode.",
+      description: "",
       link: {
         label: "calculator-phi-black.vercel.app",
         href: "https://calculator-phi-black.vercel.app/",
@@ -186,8 +182,7 @@ export const RESUME_DATA = {
     {
       title: "React Quiz game app",
       techStack: ["React", "Type-Script", "Tailwind", "Git/Github", "Vite"],
-      description:
-        "Now Working a local game, a dynamic React Quiz App designed for interactive learning experiences, featuring engaging quizzes and seamless navigation (under construction).",
+      description: "under construction.",
       link: {
         label: "quiz-app-self-mu.vercel.app",
         href: "https://quiz-app-self-mu.vercel.app/",
@@ -203,8 +198,7 @@ export const RESUME_DATA = {
         "Vite",
         "FireBase",
       ],
-      description:
-        "Developed backend functionality for a website facilitating the addition of books, tests, and questions to the application, alongside implementing user permissions for enhanced security and control.",
+      description: "",
       link: {
         label: "moon-backend.vercel.app",
         href: "https://moon-backend.vercel.app/",
@@ -220,8 +214,7 @@ export const RESUME_DATA = {
         "Firebase",
         "Figma",
       ],
-      description:
-        "The official website for the Erbil Center for Reading and Memorizing the Holy Quran. (under construction)",
+      description: "",
       link: {
         label: "/",
         href: "/",
@@ -230,8 +223,7 @@ export const RESUME_DATA = {
     {
       title: "Shopping-list",
       techStack: ["React", "java-Script", "Tailwind", "Git/Github"],
-      description:
-        "Streamline your shopping experience with an intuitive interface, allowing you to easily add, remove, and organize items—just like managing tasks in a to-do list.",
+      description: "",
       link: {
         label: "shoping-list-snowy.vercel.app",
         href: "https://shoping-list-snowy.vercel.app/",
