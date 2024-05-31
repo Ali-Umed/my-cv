@@ -184,7 +184,7 @@ export const RESUME_DATA = {
     },
 
     {
-      title: "React Quiz game app",
+      title: "React Quiz app (game)",
       techStack: ["React", "Type-Script", "Tailwind", "Git/Github", "Vite"],
       description: "under construction.",
       link: {
