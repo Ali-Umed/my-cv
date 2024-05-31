@@ -56,16 +56,31 @@ CardDescription.displayName = "CardDescription";
 const CardContent = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div
-    ref={ref}
-    className={cn(
-      "text-pretty font-mono text-sm text-muted-foreground",
-      className,
-    )}
-    {...props}
-  />
-));
+>(({ className, ...props }, ref) => {
+  const { children, ...restProps } = props;
+
+  const content =
+    typeof children === "string"
+      ? children.split("\n").map((line, index) => (
+          <p key={index} className="mb-1">
+            {line}
+          </p>
+        ))
+      : children;
+
+  return (
+    <div
+      ref={ref}
+      className={cn(
+        "text-pretty font-mono text-sm text-muted-foreground",
+        className,
+      )}
+      {...restProps}
+    >
+      {content}
+    </div>
+  );
+});
 CardContent.displayName = "CardContent";
 
 const CardFooter = React.forwardRef<

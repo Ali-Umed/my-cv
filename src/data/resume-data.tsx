@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       start: "2020",
       link: "",
       description:
-        "Embarked on a journey as a Self-Taught Developer in 2020, evolving from a Starter to a proficient Full Stack Developer. Starting with C++ and Java, I mastered the principles of object-oriented programming. Today, I excel in front-end development with React.js and TypeScript, backend development with Node.js, and database management using PostgreSQL. Additionally, I am adept at mobile development with Flutter, showcasing a diverse skill set and a relentless drive for continuous learning and growth.",
+        "Embarked on a journey as a Self-Taught Developer in 2020,\nevolving from a Starter to a proficient Full Stack Developer.\nMastered the principles of object-oriented programming with C++ and Java.\nExcel in front-end development using React.js and TypeScript.\nProficient in backend development with Node.js.\nSkilled in database management using PostgreSQL.\nAdept at mobile development with Flutter.\nShowcase a diverse skill set and a relentless drive for continuous learning and growth.",
       end: "",
     },
     {
