@@ -131,6 +131,7 @@ export const RESUME_DATA = {
         "Flutter",
         "Firebase",
         "Git/Github",
+        "State-Managment",
         "UI/UX",
         "Figma",
         "UI/UX Designer",
@@ -147,6 +148,7 @@ export const RESUME_DATA = {
         "React",
         "TypeScript",
         "Git/Github",
+        "State-Managment",
         "Vite",
         "UI/UX",
         "vercel",
@@ -180,6 +182,7 @@ export const RESUME_DATA = {
         "React",
         "java-Script",
         "Git/Github",
+        "State-Managment",
         "Vite",
         "UI/UX",
         "vercel",
@@ -192,7 +195,14 @@ export const RESUME_DATA = {
     },
     {
       title: "Calculator app",
-      techStack: ["React", "Type-Script", "Tailwind", "Git/Github", "Vite"],
+      techStack: [
+        "React",
+        "Type-Script",
+        "Tailwind",
+        "Git/Github",
+        "State-Managment",
+        "Vite",
+      ],
       description: "",
       link: {
         label: "calculator-phi-black.vercel.app",
@@ -202,7 +212,14 @@ export const RESUME_DATA = {
 
     {
       title: "React Quiz app (game)",
-      techStack: ["React", "Type-Script", "Tailwind", "Git/Github", "Vite"],
+      techStack: [
+        "React",
+        "Type-Script",
+        "State-Managment",
+        "Tailwind",
+        "Git/Github",
+        "Vite",
+      ],
       description: "under construction.",
       link: {
         label: "quiz-app-self-mu.vercel.app",
@@ -232,6 +249,7 @@ export const RESUME_DATA = {
         "React",
         "Tailwind",
         "Git/Github",
+        "State-Managment",
         "Firebase",
         "Figma",
       ],
@@ -243,7 +261,13 @@ export const RESUME_DATA = {
     },
     {
       title: "Shopping-list",
-      techStack: ["React", "java-Script", "Tailwind", "Git/Github"],
+      techStack: [
+        "React",
+        "java-Script",
+        "Tailwind",
+        "Git/Github",
+        "State-Managment",
+      ],
       description: "",
       link: {
         label: "shoping-list-snowy.vercel.app",
