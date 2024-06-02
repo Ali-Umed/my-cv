@@ -158,6 +158,23 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Blog-Posts",
+      techStack: [
+        "React",
+        "JavaScript",
+        "State-Managment",
+        "Git/Github",
+        "UI/UX",
+        "Vercel",
+        "Sss",
+      ],
+      description: "",
+      link: {
+        label: "post-blogs.netlify.app",
+        href: "https://post-blogs.netlify.app/",
+      },
+    },
+    {
       title: "KurdWanderer (Founder)",
       techStack: [
         "React",
