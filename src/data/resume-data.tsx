@@ -143,24 +143,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Weather app",
-      techStack: [
-        "React",
-        "TypeScript",
-        "Git/Github",
-        "State-Managment",
-        "Vite",
-        "UI/UX",
-        "vercel",
-      ],
-      description: "",
-      link: {
-        label: "weather-app-tawny-zeta-38.vercel.app",
-        href: "https://weather-app-tawny-zeta-38.vercel.app/",
-      },
-    },
-    {
-      title: "fast order",
+      title: "Fast Order",
       techStack: [
         "React",
         "JavaScript",
@@ -177,6 +160,24 @@ export const RESUME_DATA = {
         href: "https://https://main--fast-order1.netlify.app//",
       },
     },
+    {
+      title: "Weather app",
+      techStack: [
+        "React",
+        "TypeScript",
+        "Git/Github",
+        "State-Managment",
+        "Vite",
+        "UI/UX",
+        "vercel",
+      ],
+      description: "",
+      link: {
+        label: "weather-app-tawny-zeta-38.vercel.app",
+        href: "https://weather-app-tawny-zeta-38.vercel.app/",
+      },
+    },
+
     {
       title: "Blog-Posts",
       techStack: [
