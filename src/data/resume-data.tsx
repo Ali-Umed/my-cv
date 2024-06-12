@@ -160,6 +160,24 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "fast order",
+      techStack: [
+        "React",
+        "JavaScript",
+        "redux",
+        "react-router",
+        "Git/Github",
+        "Vite",
+        "UI/UX",
+        "vercel",
+      ],
+      description: "",
+      link: {
+        label: "https://main--fast-order1.netlify.app/",
+        href: "https://https://main--fast-order1.netlify.app//",
+      },
+    },
+    {
       title: "Blog-Posts",
       techStack: [
         "React",
