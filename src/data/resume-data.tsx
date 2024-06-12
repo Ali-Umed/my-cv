@@ -157,7 +157,7 @@ export const RESUME_DATA = {
       description: "",
       link: {
         label: "https://main--fast-order1.netlify.app/",
-        href: "https://https://main--fast-order1.netlify.app//",
+        href: "https://main--fast-order1.netlify.app//",
       },
     },
     {
