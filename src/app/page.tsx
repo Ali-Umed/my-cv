@@ -165,7 +165,7 @@ export default function Page() {
               return (
                 <p
                   key={skill}
-                  className="text-blakc rounded-full bg-[#f0f0f0] px-3 py-1 text-sm font-semibold opacity-90 shadow-lg"
+                  className="text-blakc rounded-lg bg-[#f3f4f6] px-3 py-1 text-sm font-medium opacity-90 shadow-lg"
                 >
                   {skill}
                 </p>
