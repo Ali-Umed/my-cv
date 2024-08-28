@@ -87,14 +87,14 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          {/* <Avatar className="size-28">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-          </Avatar>
+          </Avatar> */}
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
+          <p className="text-pretty font-mono  text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
         </Section>
@@ -159,14 +159,20 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
+          <h2 className="mb-0 text-xl font-bold">Skills</h2>
+          <div className="flex flex-wrap gap-2">
             {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
+              return (
+                <p
+                  key={skill}
+                  className="text-blakc rounded-full bg-[#f0f0f0] px-3 py-1 text-sm font-semibold opacity-90 shadow-lg"
+                >
+                  {skill}
+                </p>
+              );
             })}
           </div>
         </Section>
-
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">

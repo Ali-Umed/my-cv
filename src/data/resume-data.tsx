@@ -81,7 +81,7 @@ export const RESUME_DATA = {
       link: "",
       description:
         "Embarked on a journey as a Self-Taught Developer in 2020,\nevolving from a Starter to a proficient Full Stack Developer.\nMastered the principles of object-oriented programming with C++ and Java.\nExcel in front-end development using React.js and TypeScript.\nProficient in backend development with Node.js.\nSkilled in database management using PostgreSQL.\nAdept at mobile development with Flutter.\nShowcase a diverse skill set and a relentless drive for continuous learning and growth.",
-      end: "",
+      end: "now",
     },
     {
       company: "freelancer",
@@ -95,7 +95,7 @@ export const RESUME_DATA = {
         "bring a wealth of experience and a proven track record of exceeding client expectations.\n" +
         "Committed to staying at the forefront of industry trends and technologies.\n" +
         "Continuously strive to elevate  skills and deliver exceptional results.",
-      end: "",
+      end: "now",
     },
   ],
   skills: [
