@@ -190,7 +190,41 @@ export const RESUME_DATA = {
         href: "https://portal-moneta-gitft.vercel.app/",
       },
     },
-    // 
+    {
+      title: "Noon-1938",
+      techStack: [
+        "Data Entry",
+        "Wordpress",
+        "Woocommerce",
+        'Elementor',
+        "WooCommerce Payment Gateways",
+      ],
+      description: "",
+      link: {
+        label: "weather-app-tawny-zeta-38.vercel.app",
+        href: "https://www.noon1968.com/",
+      },
+    },
+
+
+
+    {
+      title: "Weather app",
+      techStack: [
+        "React",
+        "TypeScript",
+        "Git/Github",
+        "State-Managment",
+        "Vite",
+        "UI/UX",
+        "vercel",
+      ],
+      description: "",
+      link: {
+        label: "weather-app-tawny-zeta-38.vercel.app",
+        href: "https://weather-app-tawny-zeta-38.vercel.app/",
+      },
+    },
     {
       title: "Fast Order",
       techStack: [
@@ -209,23 +243,7 @@ export const RESUME_DATA = {
         href: "https://main--fast-order1.netlify.app/",
       },
     },
-    {
-      title: "Weather app",
-      techStack: [
-        "React",
-        "TypeScript",
-        "Git/Github",
-        "State-Managment",
-        "Vite",
-        "UI/UX",
-        "vercel",
-      ],
-      description: "",
-      link: {
-        label: "weather-app-tawny-zeta-38.vercel.app",
-        href: "https://weather-app-tawny-zeta-38.vercel.app/",
-      },
-    },
+  
 
     {
       title: "Blog-Posts",
