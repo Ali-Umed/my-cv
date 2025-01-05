@@ -64,14 +64,41 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Moneta",
+      badges: [],
+      title: "Full Stack Developer",
+      start: "Aug-2024",
+      link: "https://portal-moneta-gitft.vercel.app/",
+     "description": 
+  "Started my journey as a Full Stack Developer, contributing to the growth of an innovative card-selling platform.\n" +
+  "Specialize in building dynamic and user-friendly interfaces using React.js, ensuring seamless user experiences.\n" +
+  "Utilize Firebase for efficient database management, authentication, and real-time features to enhance platform reliability.\n" +
+  "Leverage Next.js for server-side rendering and optimized performance, ensuring fast web applications.\n" +
+  "Known for solving complex problems with scalable and maintainable code.\n" ,
+      end: "Jan-2025",
+    },
+    {
       company: "Gateway",
       link: "https://the-gw.com/",
       badges: ["internship"],
       title: "Frontend Developer",
-      start: "July 2023",
+      start: "July-2023",
       end: "September 2023",
       description:
         "Completed a summer internship at Gateway, a prestigious web development firm.\nCollaborated closely with seasoned developers and designers to deliver top-tier projects.\nUtilized advanced technologies including React.js, TypeScript, Git, GitHub, and Agile methodologies such as Scrum.\nEnsured the successful execution of high-quality web solutions.\nGained practical experience in developing responsive and user-friendly web interfaces.\nEnhanced problem-solving skills by working on real-world projects and receiving mentorship from industry experts.",
+    },
+    // 
+  
+    {
+      company: "Noon_1968",
+      badges: [],
+      title: "Data Entry",
+      start: "Nov-2024",
+      link: "https://www.noon1968.com/",
+      description:
+      "Embarked on a professional journey as a Data Entry Specialist in 2024 at Data Ent.\n" 
+      ,
+      end: "Jan-2025",
     },
     {
       company: "Self-Taught Developer",
@@ -97,6 +124,7 @@ export const RESUME_DATA = {
         "Continuously strive to elevate  skills and deliver exceptional results.",
       end: "now",
     },
+   
   ],
   skills: [
     "Java",
@@ -145,6 +173,7 @@ export const RESUME_DATA = {
         href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
       },
     },
+   
     {
       title: "Fast Order",
       techStack: [
