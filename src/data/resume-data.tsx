@@ -174,7 +174,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Moneta Gift (Full Stack Developer)",
+      title: "Moneta Gift (Full Stack Developer) (You need access from admin to join)",
       techStack: [
         "React js",
         "Next Js",
@@ -190,6 +190,23 @@ export const RESUME_DATA = {
         href: "https://portal-moneta-gitft.vercel.app/",
       },
     },
+    
+
+    {
+      title: "Change life travel",
+      techStack: [
+        "Html",
+        "css",
+        "javaScript",
+        'git-github',
+      ],
+      description: "",
+      link: {
+        label: "Change life travel",
+        href: "https://cl-travels.com/",
+      },
+    },
+
     {
       title: "Noon-1938",
       techStack: [
