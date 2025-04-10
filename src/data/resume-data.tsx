@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   about:
     "Software Developer Focused on building intuitive and engaging user interfaces.",
   summary:
-    "As a Software Developer, I specialize in bringing ideas to life, With extensive experience spanning over 5 years, I have crafted robust and intuitive user interfaces using React.js, React Native, and Flutter and Next Js for server side rendering.",
+    "As a Software Developer, I specialize in bringing ideas to life, With extensive experience spanning over 5 years, I have crafted robust and intuitive user interfaces using React.js, React Native, Flutter and Next Js for server side rendering.",
   avatarUrl: "https://avatars.githubusercontent.com/u/138879096?v=4",
   personalWebsiteUrl: "/",
   contact: {
@@ -57,14 +57,14 @@ export const RESUME_DATA = {
     {
       school: "Erbil Polytechnic University",
       degree:
-        "Graduated from Erbil Polytechnic University with a Bachelor's Degree in Information Systems Engineering (2020-2024), equipped with comprehensive knowledge and practical skills for tackling complex technological challenges.",
+        "Graduated from Erbil Polytechnic University with a Bachelor's Degree in (ISE)Information Systems Engineering (2020-2024).",
       start: "2020",
       end: "2024",
     },
   ],
   work: [
     {
-      company: "Moneta",
+      company: "Moneta Gift",
       badges: [],
       title: "Full Stack Developer",
       start: "Aug-2024",
@@ -86,14 +86,13 @@ export const RESUME_DATA = {
       description:
         "Completed a summer internship at Gateway, a prestigious web development firm.\nCollaborated closely with seasoned developers and designers to deliver top-tier projects.\nUtilized advanced technologies including React.js, TypeScript, Git, GitHub, and Agile methodologies such as Scrum.",
     },
-    //
-
     {
       company: "Noon_1968",
       badges: [],
       title: "Data Entry",
       start: "Nov-2024",
-      link: "https://www.noon1968.com/",
+      link: "",
+      // link: "https://www.noon1968.com/",
       description:
         "Embarked on a professional journey as a Data Entry Specialist in 2024.",
       end: "Jan-2025",
@@ -108,18 +107,18 @@ export const RESUME_DATA = {
         "Embarked on a journey as a Self-Taught Developer in 2020,\nevolving from a Starter to a proficient Full Stack Developer.\nMastered the principles of object-oriented programming with C++ and Java.\nExcel in front-end development using React.js and JavaScript.\nSkilled in database management using PostgreSQL.\nAdept at mobile development with Flutter.",
       end: "now",
     },
-    {
-      company: "freelancer",
-      badges: [],
-      title: "Frontend Developer,Mobile Seveloper",
-      start: "2023",
-      link: "",
-      description:
-        "Established a successful career as a freelance Frontend Developer since 2023, specializing in Next js, React.js and JavaScript,Flutter.\n" +
-        "Known for delivering high-quality web solutions with precision and creativity.\n" +
-        "Committed to staying at the forefront of industry trends and technologies.\n",
-      end: "now",
-    },
+    // {
+    //   company: "freelancer",
+    //   badges: [],
+    //   title: "Frontend Developer,Mobile Seveloper",
+    //   start: "2023",
+    //   link: "",
+    //   description:
+    //     "Established a successful career as a freelance Frontend Developer since 2023, specializing in Next js, React.js and JavaScript,Flutter.\n" +
+    //     "Known for delivering high-quality web solutions with precision and creativity.\n" +
+    //     "Committed to staying at the forefront of industry trends and technologies.\n",
+    //   end: "now",
+    // },
   ],
   skills: [
     "Next Js",
