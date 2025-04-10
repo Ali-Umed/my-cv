@@ -27,9 +27,9 @@ export const RESUME_DATA = {
   locationLink:
     "https://www.google.com/maps/place/36%C2%B015'20.2%22N+44%C2%B006'51.4%22E/@36.2556099,44.1142652,17z/data=!3m1!4b1!4m4!3m3!8m2!3d36.2556099!4d44.1142652?entry=ttu",
   about:
-    "Software Developer Focused on building intuitive and engaging user interfaces with meticulous attention to detail. Committed to delivering seamless user experiences through clean, efficient, and maintainable code.",
+    "Software Developer Focused on building intuitive and engaging user interfaces.",
   summary:
-    "As a Software Developer, I specialize in bringing ideas to life, leveraging my expertise in a variety of technologies to drive product development from inception to launch. With extensive experience spanning over 4 years, I have crafted robust and intuitive user interfaces using React.js, React Native, and Flutter. Additionally, my proficiency extends to backend technologies such as Node.js, enabling me to build scalable and efficient server-side solutions.",
+    "As a Software Developer, I specialize in bringing ideas to life, With extensive experience spanning over 5 years, I have crafted robust and intuitive user interfaces using React.js, React Native, Flutter and Next Js for server side rendering.",
   avatarUrl: "https://avatars.githubusercontent.com/u/138879096?v=4",
   personalWebsiteUrl: "/",
   contact: {
@@ -57,24 +57,23 @@ export const RESUME_DATA = {
     {
       school: "Erbil Polytechnic University",
       degree:
-        "Graduated from Erbil Polytechnic University with a Bachelor's Degree in Information Systems Engineering (2020-2024), equipped with comprehensive knowledge and practical skills for tackling complex technological challenges.",
+        "Graduated from Erbil Polytechnic University with a Bachelor's Degree in (ISE)Information Systems Engineering (2020-2024).",
       start: "2020",
       end: "2024",
     },
   ],
   work: [
     {
-      company: "Moneta",
+      company: "Moneta Gift",
       badges: [],
       title: "Full Stack Developer",
       start: "Aug-2024",
       link: "https://portal-moneta-gitft.vercel.app/",
-     "description": 
-  "Started my journey as a Full Stack Developer, contributing to the growth of an innovative card-selling platform.\n" +
-  "Specialize in building dynamic and user-friendly interfaces using React.js, ensuring seamless user experiences.\n" +
-  "Utilize Firebase for efficient database management, authentication, and real-time features to enhance platform reliability.\n" +
-  "Leverage Next.js for server-side rendering and optimized performance, ensuring fast web applications.\n" +
-  "Known for solving complex problems with scalable and maintainable code.\n" ,
+      description:
+        "Started my journey as a Full Stack Developer, contributing to the growth of an innovative card-selling platform.\n" +
+        "Specialize in building dynamic and user-friendly interfaces using React.js.\n" +
+        "Utilize Firebase for efficient database management, authentication, and real-time features to enhance platform reliability.\n" +
+        "Leverage Next.js for server-side rendering and optimized performance.\n",
       end: "Jan-2025",
     },
     {
@@ -85,19 +84,17 @@ export const RESUME_DATA = {
       start: "July-2023",
       end: "September 2023",
       description:
-        "Completed a summer internship at Gateway, a prestigious web development firm.\nCollaborated closely with seasoned developers and designers to deliver top-tier projects.\nUtilized advanced technologies including React.js, TypeScript, Git, GitHub, and Agile methodologies such as Scrum.\nEnsured the successful execution of high-quality web solutions.\nGained practical experience in developing responsive and user-friendly web interfaces.\nEnhanced problem-solving skills by working on real-world projects and receiving mentorship from industry experts.",
+        "Completed a summer internship at Gateway, a prestigious web development firm.\nCollaborated closely with seasoned developers and designers to deliver top-tier projects.\nUtilized advanced technologies including React.js, TypeScript, Git, GitHub, and Agile methodologies such as Scrum.",
     },
-    // 
-  
     {
       company: "Noon_1968",
       badges: [],
       title: "Data Entry",
       start: "Nov-2024",
-      link: "https://www.noon1968.com/",
+      link: "",
+      // link: "https://www.noon1968.com/",
       description:
-      "Embarked on a professional journey as a Data Entry Specialist in 2024 at Data Ent.\n" 
-      ,
+        "Embarked on a professional journey as a Data Entry Specialist in 2024.",
       end: "Jan-2025",
     },
     {
@@ -107,42 +104,38 @@ export const RESUME_DATA = {
       start: "2020",
       link: "",
       description:
-        "Embarked on a journey as a Self-Taught Developer in 2020,\nevolving from a Starter to a proficient Full Stack Developer.\nMastered the principles of object-oriented programming with C++ and Java.\nExcel in front-end development using React.js and TypeScript.\nProficient in backend development with Node.js.\nSkilled in database management using PostgreSQL.\nAdept at mobile development with Flutter.\nShowcase a diverse skill set and a relentless drive for continuous learning and growth.",
+        "Embarked on a journey as a Self-Taught Developer in 2020,\nevolving from a Starter to a proficient Full Stack Developer.\nMastered the principles of object-oriented programming with C++ and Java.\nExcel in front-end development using React.js and JavaScript.\nAdept at mobile development with Flutter.",
       end: "now",
     },
-    {
-      company: "freelancer",
-      badges: [],
-      title: "Frontend Developer",
-      start: "2023",
-      link: "",
-      description:
-        "Established a successful career as a freelance Frontend Developer since 2023, specializing in React.js and TypeScript.\n" +
-        "Known for delivering high-quality web solutions with precision and creativity.\n" +
-        "bring a wealth of experience and a proven track record of exceeding client expectations.\n" +
-        "Committed to staying at the forefront of industry trends and technologies.\n" +
-        "Continuously strive to elevate  skills and deliver exceptional results.",
-      end: "now",
-    },
-   
+    // {
+    //   company: "freelancer",
+    //   badges: [],
+    //   title: "Frontend Developer,Mobile Seveloper",
+    //   start: "2023",
+    //   link: "",
+    //   description:
+    //     "Established a successful career as a freelance Frontend Developer since 2023, specializing in Next js, React.js and JavaScript,Flutter.\n" +
+    //     "Known for delivering high-quality web solutions with precision and creativity.\n" +
+    //     "Committed to staying at the forefront of industry trends and technologies.\n",
+    //   end: "now",
+    // },
   ],
   skills: [
+    "Next Js",
+    "React",
+    "react native",
+    "Flutter",
+    "JavaScript",
+    "TypeScript",
+    "Git/GitHub",
     "Java",
     "Linux",
     "PostgreSQL",
     "MySql",
-    "Network",
     "MongoDb",
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Git/GitHub",
-    "React Router",
     "Redux/ Redux Kit",
-    "react native",
-    "Flutter",
-    "Tailwind",
     "Teamwork",
+    "Tailwind",
     "Sass",
     "Vite",
     "Scrum",
@@ -155,6 +148,15 @@ export const RESUME_DATA = {
     "Co-Founder",
   ],
   projects: [
+    {
+      title: "Nilnuts",
+      techStack: ["React js", "Tailwind", "Saas", "Git/Github"],
+      description: "",
+      link: {
+        label: "Nilnuts",
+        href: "https://nilnuts.com/",
+      },
+    },
     {
       title: "Moon App(مانگ) (Co-Founder)",
       techStack: [
@@ -174,7 +176,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Moneta Gift (Full Stack Developer) (You need access from admin to join)",
+      title:
+        "Moneta Gift (Full Stack Developer) (You need access from admin to join)",
       techStack: [
         "React js",
         "Next Js",
@@ -190,16 +193,10 @@ export const RESUME_DATA = {
         href: "https://portal-moneta-gitft.vercel.app/",
       },
     },
-    
 
     {
       title: "Change life travel",
-      techStack: [
-        "Html",
-        "css",
-        "javaScript",
-        'git-github',
-      ],
+      techStack: ["Html", "css", "javaScript", "git-github"],
       description: "",
       link: {
         label: "Change life travel",
@@ -213,7 +210,7 @@ export const RESUME_DATA = {
         "Data Entry",
         "Wordpress",
         "Woocommerce",
-        'Elementor',
+        "Elementor",
         "WooCommerce Payment Gateways",
       ],
       description: "",
@@ -222,8 +219,6 @@ export const RESUME_DATA = {
         href: "https://www.noon1968.com/",
       },
     },
-
-
 
     {
       title: "Weather app",
@@ -260,7 +255,6 @@ export const RESUME_DATA = {
         href: "https://main--fast-order1.netlify.app/",
       },
     },
-  
 
     {
       title: "Blog-Posts",
