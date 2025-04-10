@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   locationLink:
     "https://www.google.com/maps/place/36%C2%B015'20.2%22N+44%C2%B006'51.4%22E/@36.2556099,44.1142652,17z/data=!3m1!4b1!4m4!3m3!8m2!3d36.2556099!4d44.1142652?entry=ttu",
   about:
-    "Software Developer Focused on building intuitive and engaging user interfaces with meticulous attention to detail.",
+    "Software Developer Focused on building intuitive and engaging user interfaces.",
   summary:
     "As a Software Developer, I specialize in bringing ideas to life, With extensive experience spanning over 5 years, I have crafted robust and intuitive user interfaces using React.js, React Native, and Flutter and Next Js for server side rendering.",
   avatarUrl: "https://avatars.githubusercontent.com/u/138879096?v=4",
@@ -95,7 +95,7 @@ export const RESUME_DATA = {
       start: "Nov-2024",
       link: "https://www.noon1968.com/",
       description:
-        "Embarked on a professional journey as a Data Entry Specialist in 2024 at Data Ent.\n",
+        "Embarked on a professional journey as a Data Entry Specialist in 2024.",
       end: "Jan-2025",
     },
     {
@@ -122,22 +122,21 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "Next Js",
+    "React",
+    "react native",
+    "Flutter",
+    "JavaScript",
+    "TypeScript",
+    "Git/GitHub",
     "Java",
     "Linux",
     "PostgreSQL",
     "MySql",
-    "Network",
     "MongoDb",
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Git/GitHub",
-    "React Router",
     "Redux/ Redux Kit",
-    "react native",
-    "Flutter",
-    "Tailwind",
     "Teamwork",
+    "Tailwind",
     "Sass",
     "Vite",
     "Scrum",
@@ -150,6 +149,15 @@ export const RESUME_DATA = {
     "Co-Founder",
   ],
   projects: [
+    {
+      title: "Nilnuts",
+      techStack: ["React js", "Tailwind", "Saas", "Git/Github"],
+      description: "",
+      link: {
+        label: "Nilnuts",
+        href: "https://nilnuts.com/",
+      },
+    },
     {
       title: "Moon App(مانگ) (Co-Founder)",
       techStack: [
