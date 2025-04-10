@@ -103,7 +103,7 @@ export default function Page() {
           {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company}>
-                <CardHeader>
+                <CardHeader className="-mt-2">
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href={work.link}>
@@ -159,7 +159,9 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="mb-0 text-xl font-bold">Skills</h2>
+          <h2 className="print-force-new-page -mt-2 mb-0 text-xl font-bold">
+            Skills
+          </h2>
           <div className="flex flex-wrap gap-2">
             {RESUME_DATA.skills.map((skill) => {
               return (
@@ -174,7 +176,7 @@ export default function Page() {
           </div>
         </Section>
         <Section className="print-force-new-page1 scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
+          <h2 className="-mt-2 text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
