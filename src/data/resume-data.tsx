@@ -306,23 +306,22 @@ export const RESUME_DATA = {
         href: "https://calculator-phi-black.vercel.app/",
       },
     },
-
-    {
-      title: "React Quiz app (game)",
-      techStack: [
-        "React",
-        "Type-Script",
-        "State-Managment",
-        "Tailwind",
-        "Git/Github",
-        "Vite",
-      ],
-      description: "under construction.",
-      link: {
-        label: "quiz-app-self-mu.vercel.app",
-        href: "https://quiz-app-self-mu.vercel.app/",
-      },
-    },
+    // {
+    //   title: "React Quiz app (game)",
+    //   techStack: [
+    //     "React",
+    //     "Type-Script",
+    //     "State-Managment",
+    //     "Tailwind",
+    //     "Git/Github",
+    //     "Vite",
+    //   ],
+    //   description: "under construction.",
+    //   link: {
+    //     label: "quiz-app-self-mu.vercel.app",
+    //     href: "https://quiz-app-self-mu.vercel.app/",
+    //   },
+    // },
     {
       title: "Moon Backend (You need access to login )",
       techStack: [
@@ -356,20 +355,20 @@ export const RESUME_DATA = {
         href: "/",
       },
     },
-    {
-      title: "Shopping-list",
-      techStack: [
-        "React",
-        "java-Script",
-        "Tailwind",
-        "Git/Github",
-        "State-Managment",
-      ],
-      description: "",
-      link: {
-        label: "shoping-list-snowy.vercel.app",
-        href: "https://shoping-list-snowy.vercel.app/",
-      },
-    },
+    // {
+    //   title: "Shopping-list",
+    //   techStack: [
+    //     "React",
+    //     "java-Script",
+    //     "Tailwind",
+    //     "Git/Github",
+    //     "State-Managment",
+    //   ],
+    //   description: "",
+    //   link: {
+    //     label: "shoping-list-snowy.vercel.app",
+    //     href: "https://shoping-list-snowy.vercel.app/",
+    //   },
+    // },
   ],
 } as const;
