@@ -149,15 +149,6 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Nilnuts",
-      techStack: ["React js", "Tailwind", "Saas", "Git/Github"],
-      description: "",
-      link: {
-        label: "Nilnuts",
-        href: "https://nilnuts.com/",
-      },
-    },
-    {
       title: "Moon App(مانگ) (Co-Founder)",
       techStack: [
         "App Developer",
@@ -167,7 +158,6 @@ export const RESUME_DATA = {
         "State-Managment",
         "UI/UX",
         "Figma",
-        "UI/UX Designer",
       ],
       description: "",
       link: {
@@ -176,21 +166,28 @@ export const RESUME_DATA = {
       },
     },
     {
-      title:
-        "Moneta Gift (Full Stack Developer) (You need access from admin to join)",
+      title: "Nilnuts",
+      techStack: ["React js", "Tailwind", "Saas", "Git/Github"],
+      description: "",
+      link: {
+        label: "Nilnuts",
+        href: "https://nilnuts.com/",
+      },
+    },
+
+    {
+      title: "Flutter Quote Generator App",
       techStack: [
-        "React js",
-        "Next Js",
-        "Firebase",
-        "Server Side",
-        "Tailwind",
+        "App Developer",
+        "Flutter",
         "State-Managment",
+        "UI/UX",
         "Git/Github",
       ],
       description: "",
       link: {
-        label: "Moneta Gift",
-        href: "https://portal-moneta-gitft.vercel.app/",
+        label: "Quote",
+        href: "https://ali-umed.netlify.app/posts/quote/",
       },
     },
 
@@ -219,7 +216,6 @@ export const RESUME_DATA = {
         href: "https://www.noon1968.com/",
       },
     },
-
     {
       title: "Weather app",
       techStack: [
@@ -238,6 +234,16 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "React quiz app",
+      techStack: ["React", "Git/Github", "State-Managment", "UI/UX"],
+      description: "",
+      link: {
+        label: "Quiz App",
+        href: "https://quiz-app-self-mu.vercel.app/",
+      },
+    },
+
+    {
       title: "Fast Order",
       techStack: [
         "React",
@@ -255,7 +261,41 @@ export const RESUME_DATA = {
         href: "https://main--fast-order1.netlify.app/",
       },
     },
-
+    {
+      title:
+        "Moneta Gift (Full Stack Developer) (You need access from admin to join)",
+      techStack: [
+        "React js",
+        "Next Js",
+        "Firebase",
+        "Server Side",
+        "Tailwind",
+        "State-Managment",
+        "Git/Github",
+      ],
+      description: "",
+      link: {
+        label: "Moneta Gift",
+        href: "https://portal-moneta-gitft.vercel.app/",
+      },
+    },
+    {
+      title: "KurdWanderer (under construction)",
+      techStack: [
+        "React",
+        "java-Script",
+        "Git/Github",
+        "State-Managment",
+        "Vite",
+        "UI/UX",
+        "vercel",
+      ],
+      description: "under construction.",
+      link: {
+        label: "kurdwanderer.netlify.app",
+        href: "https://kurdwanderer.netlify.app/",
+      },
+    },
     {
       title: "Blog-Posts",
       techStack: [
@@ -273,23 +313,7 @@ export const RESUME_DATA = {
         href: "https://post-blogs.netlify.app/",
       },
     },
-    {
-      title: "KurdWanderer (Founder)",
-      techStack: [
-        "React",
-        "java-Script",
-        "Git/Github",
-        "State-Managment",
-        "Vite",
-        "UI/UX",
-        "vercel",
-      ],
-      description: "under construction.",
-      link: {
-        label: "kurdwanderer.netlify.app",
-        href: "https://kurdwanderer.netlify.app/",
-      },
-    },
+
     {
       title: "Calculator app",
       techStack: [
@@ -338,23 +362,23 @@ export const RESUME_DATA = {
         href: "https://moon-backend.vercel.app/",
       },
     },
-    {
-      title: "Erbil Center",
-      techStack: [
-        "Frontend Developer",
-        "React",
-        "Tailwind",
-        "Git/Github",
-        "State-Managment",
-        "Firebase",
-        "Figma",
-      ],
-      description: "",
-      link: {
-        label: "/",
-        href: "/",
-      },
-    },
+    // {
+    //   title: "Erbil Center",
+    //   techStack: [
+    //     "Frontend Developer",
+    //     "React",
+    //     "Tailwind",
+    //     "Git/Github",
+    //     "State-Managment",
+    //     "Firebase",
+    //     "Figma",
+    //   ],
+    //   description: "",
+    //   link: {
+    //     label: "/",
+    //     href: "/",
+    //   },
+    // },
     // {
     //   title: "Shopping-list",
     //   techStack: [
