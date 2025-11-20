@@ -124,6 +124,7 @@ export const RESUME_DATA = {
     "React",
     "react native",
     "Flutter",
+    "Laravel",
     "JavaScript",
     "TypeScript",
     "Git/GitHub",
@@ -143,7 +144,7 @@ export const RESUME_DATA = {
     "Node.js",
     "Supabase",
     "Firebase",
-    "c++",
+    // "c++",
     // "Co-Founder",
   ],
   projects: [
@@ -216,7 +217,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Weather app",
+      title: "Weather web application",
       techStack: [
         "React",
         "TypeScript",
@@ -260,41 +261,41 @@ export const RESUME_DATA = {
         href: "https://main--fast-order1.netlify.app/",
       },
     },
-    {
-      title:
-        "Moneta Gift (Full Stack Developer) (You need access from admin to join)",
-      techStack: [
-        "React js",
-        "Next Js",
-        "Firebase",
-        "Server Side",
-        "Tailwind",
-        "State-Managment",
-        "Git/Github",
-      ],
-      description: "",
-      link: {
-        label: "Moneta Gift",
-        href: "https://portal-moneta-gitft.vercel.app/",
-      },
-    },
-    {
-      title: "KurdWanderer (under construction)",
-      techStack: [
-        "React",
-        "java-Script",
-        "Git/Github",
-        "State-Managment",
-        "Vite",
-        "UI/UX",
-        "vercel",
-      ],
-      description: "under construction.",
-      link: {
-        label: "kurdwanderer.netlify.app",
-        href: "https://kurdwanderer.netlify.app/",
-      },
-    },
+    // {
+    //   title:
+    //     "Moneta Gift (Full Stack Developer) (You need access from admin to join)",
+    //   techStack: [
+    //     "React js",
+    //     "Next Js",
+    //     "Firebase",
+    //     "Server Side",
+    //     "Tailwind",
+    //     "State-Managment",
+    //     "Git/Github",
+    //   ],
+    //   description: "",
+    //   link: {
+    //     label: "Moneta Gift",
+    //     href: "https://portal-moneta-gitft.vercel.app/",
+    //   },
+    // },
+    // {
+    //   title: "KurdWanderer (under construction)",
+    //   techStack: [
+    //     "React",
+    //     "java-Script",
+    //     "Git/Github",
+    //     "State-Managment",
+    //     "Vite",
+    //     "UI/UX",
+    //     "vercel",
+    //   ],
+    //   description: "under construction.",
+    //   link: {
+    //     label: "kurdwanderer.netlify.app",
+    //     href: "https://kurdwanderer.netlify.app/",
+    //   },
+    // },
     {
       title: "Blog-Posts",
       techStack: [
