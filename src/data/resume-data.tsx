@@ -19,6 +19,7 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { FacebookIcon } from "lucide-react";
+import { link } from "fs/promises";
 
 export const RESUME_DATA = {
   name: "Ali Umed",
@@ -26,10 +27,9 @@ export const RESUME_DATA = {
   location: "Shawaes, Erbil, iraq",
   locationLink:
     "https://www.google.com/maps/place/36%C2%B015'20.2%22N+44%C2%B006'51.4%22E/@36.2556099,44.1142652,17z/data=!3m1!4b1!4m4!3m3!8m2!3d36.2556099!4d44.1142652?entry=ttu",
-  about:
-    "Software Developer Focused on building intuitive and engaging user interfaces.",
+  about: "Software Developer",
   summary:
-    "As a Software Developer, I specialize in bringing ideas to life, With extensive experience spanning over 5 years, I have crafted robust and intuitive user interfaces using React.js, React Native, Flutter and Next Js for server side rendering.",
+    "As a Software Developer, I build fast, intuitive applications using React.js, React Native, Flutter, and Next.js, turning ideas into polished digital products.",
   avatarUrl: "https://avatars.githubusercontent.com/u/138879096?v=4",
   personalWebsiteUrl: "/",
   contact: {
@@ -63,18 +63,28 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    // {
+    //   company: "Moneta Gift",
+    //   badges: [],
+    //   title: "Full Stack Developer",
+    //   start: "Aug-2024",
+    //   link: "https://portal-moneta-gitft.vercel.app/",
+    //   description:
+    //     "Started my journey as a Full Stack Developer, contributing to the growth of an innovative card-selling platform.\n" +
+    //     "Specialize in building dynamic and user-friendly interfaces using React.js.\n" +
+    //     "Utilize Firebase for efficient database management, authentication, and real-time features to enhance platform reliability.\n" +
+    //     "Leverage Next.js for server-side rendering and optimized performance.\n",
+    //   end: "Jan-2025",
+    // },
     {
-      company: "Moneta Gift",
+      company: "Self-Taught Developer",
       badges: [],
-      title: "Full Stack Developer",
-      start: "Aug-2024",
-      link: "https://portal-moneta-gitft.vercel.app/",
+      title: "Starter → Full Stack Developer",
+      start: "2020",
+      link: "",
       description:
-        "Started my journey as a Full Stack Developer, contributing to the growth of an innovative card-selling platform.\n" +
-        "Specialize in building dynamic and user-friendly interfaces using React.js.\n" +
-        "Utilize Firebase for efficient database management, authentication, and real-time features to enhance platform reliability.\n" +
-        "Leverage Next.js for server-side rendering and optimized performance.\n",
-      end: "Jan-2025",
+        "Embarked on a journey as a Self-Taught Developer in 2020,\nAdept at mobile development with Flutter.\nExcel in front-end development using React.js and JavaScript.\nevolving from a Starter to a proficient Full Stack Developer.",
+      end: "now",
     },
     {
       company: "Gateway",
@@ -84,29 +94,19 @@ export const RESUME_DATA = {
       start: "July-2023",
       end: "September 2023",
       description:
-        "Completed a summer internship at Gateway, a prestigious web development firm.\nCollaborated closely with seasoned developers and designers to deliver top-tier projects.\nUtilized advanced technologies including React.js, TypeScript, Git, GitHub, and Agile methodologies such as Scrum.",
+        "Completed a summer internship at Gateway, where I collaborated with experienced developers and designers on real client projects. During this internship, I strengthened my skills in React.js, TypeScript, Git, GitHub, and Agile practices such as Scrum.",
     },
-    {
-      company: "Noon_1968",
-      badges: [],
-      title: "Data Entry",
-      start: "Nov-2024",
-      link: "",
-      // link: "https://www.noon1968.com/",
-      description:
-        "Embarked on a professional journey as a Data Entry Specialist in 2024.",
-      end: "Jan-2025",
-    },
-    {
-      company: "Self-Taught Developer",
-      badges: [],
-      title: "Starter → Full Stack Developer",
-      start: "2020",
-      link: "",
-      description:
-        "Embarked on a journey as a Self-Taught Developer in 2020,\nevolving from a Starter to a proficient Full Stack Developer.\nMastered the principles of object-oriented programming with C++ and Java.\nExcel in front-end development using React.js and JavaScript.\nAdept at mobile development with Flutter.",
-      end: "now",
-    },
+    // {
+    //   company: "Noon_1968",
+    //   badges: [],
+    //   title: "Data Entry and WordPress Project Developer",
+    //   start: "Nov-2024",
+    //   link: "https://www.noon1968.com/",
+    //   description:
+    //     "Embarked on a professional journey in 2024 as a Data Entry Specialist and WordPress Project Developer.",
+    //   end: "Jan-2025",
+    // },
+
     // {
     //   company: "freelancer",
     //   badges: [],
@@ -125,14 +125,15 @@ export const RESUME_DATA = {
     "React",
     "react native",
     "Flutter",
+    "Laravel",
     "JavaScript",
     "TypeScript",
     "Git/GitHub",
     "Java",
     "Linux",
-    "PostgreSQL",
+    // "PostgreSQL",
     "MySql",
-    "MongoDb",
+    // "MongoDb",
     "Redux/ Redux Kit",
     "Teamwork",
     "Tailwind",
@@ -140,18 +141,51 @@ export const RESUME_DATA = {
     "Vite",
     "Scrum",
     "Trello",
-    "Shadcn",
+    // "Shadcn",
     "Node.js",
     "Supabase",
     "Firebase",
-    "c++",
-    "Co-Founder",
+    // "c++",
+    // "Co-Founder",
   ],
   projects: [
     {
-      title: "Moon App(مانگ) (Co-Founder)",
+      title: "SawdaPro",
       techStack: [
-        "App Developer",
+        "Application Developer.",
+        "Flutter",
+        "Laravel",
+        "Server Management",
+        "Git/Github",
+        "UI/UX",
+      ],
+      description:
+        "Co-Founder and App Developer, delivers a smooth shopping experience with challenging features. ",
+      link: {
+        label: "SawdaPro",
+        href: "https://apps.apple.com/us/app/sawda-pro/id6753111992",
+      },
+    },
+    {
+      title: "SpectraMindGPT",
+      techStack: [
+        "Application Developer",
+        "Flutter",
+        "TeamWork",
+        "State-Managment",
+        "Git/Github",
+      ],
+      description:
+        "a powerful AI Assistant designed to help you write, plan, code and solve problems with ease.",
+      link: {
+        label: "SpectraMindGPT",
+        href: "https://apps.apple.com/us/app/spectramindgpt/id6752674301",
+      },
+    },
+    {
+      title: "مانگ",
+      techStack: [
+        "Application Developer",
         "Flutter",
         "Firebase",
         "Git/Github",
@@ -159,19 +193,51 @@ export const RESUME_DATA = {
         "UI/UX",
         "Figma",
       ],
-      description: "",
+      description:
+        "Co-Founder and App Developer. focused on Islamic education through quizzes and answers.",
       link: {
         label: "مانگ",
         href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
+        // hrefios:
+        //   "https://apps.apple.com/us/app/%D9%85%D8%A7%D9%86%DA%AF/id6502869446",
+      },
+    },
+    {
+      title: "Dolphin Express",
+      techStack: ["Application Developer", "Flutter", "Git/Github", "TeamWork"],
+      description: "designed for tracking packages across air, sea, and land.",
+      link: {
+        label: "Dolphin Express",
+        href: "https://ali-umed.netlify.app/posts/shipfly/",
       },
     },
     {
       title: "Nilnuts",
       techStack: ["React js", "Tailwind", "Saas", "Git/Github"],
-      description: "",
+      description:
+        "an e-commerce web focused on delivering a smooth shopping experience for fresh nuts, and groceries.",
       link: {
         label: "Nilnuts",
         href: "https://nilnuts.com/",
+      },
+    },
+    {
+      title: "Panel Line",
+      techStack: ["React js", "Tailwind", "UI/UX", "Git/Github"],
+      description:
+        "showcasing electrical panels and kiosks, built with modern technologies for optimal performance and user experience.",
+      link: {
+        label: "Panel Line",
+        href: "https://panel-line.netlify.app/",
+      },
+    },
+    {
+      title: "SawdaPro Landing Page",
+      techStack: ["React js", "Tailwind", "UI/UX", "Git/Github"],
+      description: "Co-Founder and Web Developer",
+      link: {
+        label: "SawdaPro Landing Page",
+        href: "https://sawdapro.netlify.app/",
       },
     },
 
@@ -217,7 +283,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Weather app",
+      title: "Weather web application",
       techStack: [
         "React",
         "TypeScript",
@@ -261,41 +327,41 @@ export const RESUME_DATA = {
         href: "https://main--fast-order1.netlify.app/",
       },
     },
-    {
-      title:
-        "Moneta Gift (Full Stack Developer) (You need access from admin to join)",
-      techStack: [
-        "React js",
-        "Next Js",
-        "Firebase",
-        "Server Side",
-        "Tailwind",
-        "State-Managment",
-        "Git/Github",
-      ],
-      description: "",
-      link: {
-        label: "Moneta Gift",
-        href: "https://portal-moneta-gitft.vercel.app/",
-      },
-    },
-    {
-      title: "KurdWanderer (under construction)",
-      techStack: [
-        "React",
-        "java-Script",
-        "Git/Github",
-        "State-Managment",
-        "Vite",
-        "UI/UX",
-        "vercel",
-      ],
-      description: "under construction.",
-      link: {
-        label: "kurdwanderer.netlify.app",
-        href: "https://kurdwanderer.netlify.app/",
-      },
-    },
+    // {
+    //   title:
+    //     "Moneta Gift (Full Stack Developer) (You need access from admin to join)",
+    //   techStack: [
+    //     "React js",
+    //     "Next Js",
+    //     "Firebase",
+    //     "Server Side",
+    //     "Tailwind",
+    //     "State-Managment",
+    //     "Git/Github",
+    //   ],
+    //   description: "",
+    //   link: {
+    //     label: "Moneta Gift",
+    //     href: "https://portal-moneta-gitft.vercel.app/",
+    //   },
+    // },
+    // {
+    //   title: "KurdWanderer (under construction)",
+    //   techStack: [
+    //     "React",
+    //     "java-Script",
+    //     "Git/Github",
+    //     "State-Managment",
+    //     "Vite",
+    //     "UI/UX",
+    //     "vercel",
+    //   ],
+    //   description: "under construction.",
+    //   link: {
+    //     label: "kurdwanderer.netlify.app",
+    //     href: "https://kurdwanderer.netlify.app/",
+    //   },
+    // },
     {
       title: "Blog-Posts",
       techStack: [
@@ -346,22 +412,22 @@ export const RESUME_DATA = {
     //     href: "https://quiz-app-self-mu.vercel.app/",
     //   },
     // },
-    {
-      title: "Moon Backend (You need access to login )",
-      techStack: [
-        "React",
-        "Type-Script",
-        "Tailwind",
-        "Git/Github",
-        "Vite",
-        "FireBase",
-      ],
-      description: "",
-      link: {
-        label: "moon-backend.vercel.app",
-        href: "https://moon-backend.vercel.app/",
-      },
-    },
+    // {
+    //   title: "Moon Backend (You need access to login )",
+    //   techStack: [
+    //     "React",
+    //     "Type-Script",
+    //     "Tailwind",
+    //     "Git/Github",
+    //     "Vite",
+    //     "FireBase",
+    //   ],
+    //   description: "",
+    //   link: {
+    //     label: "moon-backend.vercel.app",
+    //     href: "https://moon-backend.vercel.app/",
+    //   },
+    // },
     // {
     //   title: "Erbil Center",
     //   techStack: [
