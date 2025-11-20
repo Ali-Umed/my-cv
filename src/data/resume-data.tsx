@@ -149,9 +149,40 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Moon App(مانگ) (Co-Founder)",
+      title: "SawdaPro",
       techStack: [
-        "App Developer",
+        "Application Developer",
+        "Flutter",
+        "Laravel",
+        "Server Management",
+        "Git/Github",
+        "UI/UX",
+      ],
+      description: "Co-Founder and App Developer",
+      link: {
+        label: "SawdaPro",
+        href: "https://apps.apple.com/us/app/sawda-pro/id6753111992",
+      },
+    },
+    {
+      title: "SpectraMindGPT",
+      techStack: [
+        "Application Developer",
+        "Flutter",
+        "TeamWork",
+        "State-Managment",
+        "Git/Github",
+      ],
+      description: "",
+      link: {
+        label: "SpectraMindGPT",
+        href: "https://apps.apple.com/us/app/spectramindgpt/id6752674301",
+      },
+    },
+    {
+      title: "مانگ",
+      techStack: [
+        "Application Developer",
         "Flutter",
         "Firebase",
         "Git/Github",
@@ -159,10 +190,12 @@ export const RESUME_DATA = {
         "UI/UX",
         "Figma",
       ],
-      description: "",
+      description: "Co-Founder and App Developer",
       link: {
         label: "مانگ",
         href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
+        // hrefios:
+        //   "https://apps.apple.com/us/app/%D9%85%D8%A7%D9%86%DA%AF/id6502869446",
       },
     },
     {
@@ -172,6 +205,24 @@ export const RESUME_DATA = {
       link: {
         label: "Nilnuts",
         href: "https://nilnuts.com/",
+      },
+    },
+    {
+      title: "SawdaPro Landing Page",
+      techStack: ["React js", "Tailwind", "UI/UX", "Git/Github"],
+      description: "Co-Founder and Web Developer",
+      link: {
+        label: "SawdaPro Landing Page",
+        href: "https://sawdapro.netlify.app/",
+      },
+    },
+    {
+      title: "Panel Line",
+      techStack: ["React js", "Tailwind", "UI/UX", "Git/Github"],
+      description: "Under construction.",
+      link: {
+        label: "Panel Line",
+        href: "https://panel-line.netlify.app/",
       },
     },
 
@@ -346,22 +397,22 @@ export const RESUME_DATA = {
     //     href: "https://quiz-app-self-mu.vercel.app/",
     //   },
     // },
-    {
-      title: "Moon Backend (You need access to login )",
-      techStack: [
-        "React",
-        "Type-Script",
-        "Tailwind",
-        "Git/Github",
-        "Vite",
-        "FireBase",
-      ],
-      description: "",
-      link: {
-        label: "moon-backend.vercel.app",
-        href: "https://moon-backend.vercel.app/",
-      },
-    },
+    // {
+    //   title: "Moon Backend (You need access to login )",
+    //   techStack: [
+    //     "React",
+    //     "Type-Script",
+    //     "Tailwind",
+    //     "Git/Github",
+    //     "Vite",
+    //     "FireBase",
+    //   ],
+    //   description: "",
+    //   link: {
+    //     label: "moon-backend.vercel.app",
+    //     href: "https://moon-backend.vercel.app/",
+    //   },
+    // },
     // {
     //   title: "Erbil Center",
     //   techStack: [
