@@ -95,16 +95,16 @@ export const RESUME_DATA = {
       description:
         "Completed a summer internship at Gateway, where I collaborated with experienced developers and designers on real client projects. During this internship, I strengthened my skills in React.js, TypeScript, Git, GitHub, and Agile practices such as Scrum.",
     },
-    {
-      company: "Noon_1968",
-      badges: [],
-      title: "Data Entry and WordPress Project Developer",
-      start: "Nov-2024",
-      link: "https://www.noon1968.com/",
-      description:
-        "Embarked on a professional journey in 2024 as a Data Entry Specialist and WordPress Project Developer.",
-      end: "Jan-2025",
-    },
+    // {
+    //   company: "Noon_1968",
+    //   badges: [],
+    //   title: "Data Entry and WordPress Project Developer",
+    //   start: "Nov-2024",
+    //   link: "https://www.noon1968.com/",
+    //   description:
+    //     "Embarked on a professional journey in 2024 as a Data Entry Specialist and WordPress Project Developer.",
+    //   end: "Jan-2025",
+    // },
 
     // {
     //   company: "freelancer",
