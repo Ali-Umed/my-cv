@@ -93,17 +93,17 @@ export default function Page() {
           </Avatar> */}
         </div>
         <Section>
-          <h2 className="-mt-4 text-xl font-bold">About</h2>
+          <h2 className="-mt-3 text-xl font-bold">About</h2>
           <p className="-mt-3 text-pretty font-mono  text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
         </Section>
         <Section>
-          <h2 className="-mt-4 text-xl font-bold">Work Experience</h2>
+          <h2 className="-mt-3 text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company}>
-                <CardHeader className="-mt-2">
+                <CardHeader className="mt-0">
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href={work.link}>
@@ -131,7 +131,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs text-gray-700 ">
+                <CardContent className="mt-2 text-xs text-muted-foreground  ">
                   {work.description}
                 </CardContent>
               </Card>
@@ -139,7 +139,7 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="-mt-4 text-xl font-bold">Education</h2>
+          <h2 className="-mt-3 text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
             return (
               <Card key={education.school}>
@@ -159,9 +159,7 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="print-force-new-page -mt-2 mb-0 text-xl font-bold">
-            Skills
-          </h2>
+          <h2 className=" mt-o mb-0 text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-2">
             {RESUME_DATA.skills.map((skill) => {
               return (
@@ -176,7 +174,7 @@ export default function Page() {
           </div>
         </Section>
         <Section className="print-force-new-page1 scroll-mb-16">
-          <h2 className="-mt-2 text-xl font-bold">Projects</h2>
+          <h2 className="-mt-0 text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
