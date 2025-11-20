@@ -19,6 +19,7 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { FacebookIcon } from "lucide-react";
+import { link } from "fs/promises";
 
 export const RESUME_DATA = {
   name: "Ali Umed",
@@ -151,14 +152,15 @@ export const RESUME_DATA = {
     {
       title: "SawdaPro",
       techStack: [
-        "Application Developer",
+        "Application Developer.",
         "Flutter",
         "Laravel",
         "Server Management",
         "Git/Github",
         "UI/UX",
       ],
-      description: "Co-Founder and App Developer",
+      description:
+        "Co-Founder and App Developer, delivers a smooth shopping experience with challenging features. ",
       link: {
         label: "SawdaPro",
         href: "https://apps.apple.com/us/app/sawda-pro/id6753111992",
@@ -173,7 +175,8 @@ export const RESUME_DATA = {
         "State-Managment",
         "Git/Github",
       ],
-      description: "",
+      description:
+        "a powerful AI Assistant designed to help you write, plan, code and solve problems with ease.",
       link: {
         label: "SpectraMindGPT",
         href: "https://apps.apple.com/us/app/spectramindgpt/id6752674301",
@@ -190,7 +193,8 @@ export const RESUME_DATA = {
         "UI/UX",
         "Figma",
       ],
-      description: "Co-Founder and App Developer",
+      description:
+        "Co-Founder and App Developer. focused on Islamic education through quizzes and answers.",
       link: {
         label: "مانگ",
         href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
@@ -199,12 +203,32 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Dolphin Express",
+      techStack: ["Application Developer", "Flutter", "Git/Github", "TeamWork"],
+      description: "designed for tracking packages across air, sea, and land.",
+      link: {
+        label: "Dolphin Express",
+        href: "https://ali-umed.netlify.app/posts/shipfly/",
+      },
+    },
+    {
       title: "Nilnuts",
       techStack: ["React js", "Tailwind", "Saas", "Git/Github"],
-      description: "",
+      description:
+        "an e-commerce web focused on delivering a smooth shopping experience for fresh nuts, and groceries.",
       link: {
         label: "Nilnuts",
         href: "https://nilnuts.com/",
+      },
+    },
+    {
+      title: "Panel Line",
+      techStack: ["React js", "Tailwind", "UI/UX", "Git/Github"],
+      description:
+        "showcasing electrical panels and kiosks, built with modern technologies for optimal performance and user experience.",
+      link: {
+        label: "Panel Line",
+        href: "https://panel-line.netlify.app/",
       },
     },
     {
@@ -214,15 +238,6 @@ export const RESUME_DATA = {
       link: {
         label: "SawdaPro Landing Page",
         href: "https://sawdapro.netlify.app/",
-      },
-    },
-    {
-      title: "Panel Line",
-      techStack: ["React js", "Tailwind", "UI/UX", "Git/Github"],
-      description: "Under construction.",
-      link: {
-        label: "Panel Line",
-        href: "https://panel-line.netlify.app/",
       },
     },
 

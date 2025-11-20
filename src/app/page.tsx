@@ -159,7 +159,7 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className=" mt-o mb-0 text-xl font-bold">Skills</h2>
+          <h2 className=" -mt-2 mb-0 text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-2">
             {RESUME_DATA.skills.map((skill) => {
               return (
