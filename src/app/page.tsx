@@ -175,6 +175,17 @@ export default function Page() {
         </Section>
         <Section className="print-force-new-page1 scroll-mb-16">
           <h2 className="-mt-0 text-xl font-bold">Projects</h2>
+            <p className="text-sm text-muted-foreground mb-3">
+            Click on any project to see its overview or{" "}
+            <a
+              href='https://ali-umed.netlify.app/'
+              className="underline hover:text-primary font-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              click here
+            </a>
+          </p>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
