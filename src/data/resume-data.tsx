@@ -203,6 +203,21 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Kurdish OCR",
+      techStack: [
+        "Next.js",
+        "Tailwind CSS",
+        "OCR",
+        "TypeScript",
+      ],
+      description:
+        "Advanced OCR tool supporting Kurdish (Sorani & Kurmanji), Arabic, and English. Extracts text from images and PDFs with page-by-page download and copy options.",
+      link: {
+        label: "Kurdish OCR",
+        href: "https://kurdocr.netlify.app/",
+      },
+    },
+    {
       title: "Dolphin Express",
       techStack: ["Application Developer", "Flutter", "Git/Github", "TeamWork"],
       description: "designed for tracking packages across air, sea, and land.",
