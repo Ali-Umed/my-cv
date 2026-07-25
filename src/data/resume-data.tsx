@@ -150,6 +150,42 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "گوڵە بەیبوون",
+      techStack: [
+        "Application Developer",
+        "Flutter",
+        "Next.js",
+        "Laravel",
+        "Gamification",
+        "Kurdish",
+        "Git/Github",
+      ],
+      description:
+        "A modern, gamified Kurdish-English language learning mobile app with zero-latency interactive flashcards, mini-games, daily streaks, and leaderboards.",
+      link: {
+        label: "Gula Baibun",
+        href: "https://gullabaybun.com/",
+      },
+    },
+    {
+      title: "Gula Baibun Web",
+      techStack: [
+        "Web Developer",
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Framer Motion",
+        "SEO",
+        "Multilingual",
+      ],
+      description:
+        "Official marketing and landing website for Gula Baibun language learning app featuring interactive web demos and multi-language support.",
+      link: {
+        label: "gullabaybun.com",
+        href: "https://gullabaybun.com/",
+      },
+    },
+    {
       title: "SawdaPro",
       techStack: [
         "Application Developer.",
