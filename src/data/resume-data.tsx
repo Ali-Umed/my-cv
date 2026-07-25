@@ -164,7 +164,7 @@ export const RESUME_DATA = {
         "A modern, gamified Kurdish-English language learning mobile app with zero-latency interactive flashcards, mini-games, daily streaks, and leaderboards.",
       link: {
         label: "Gula Baibun",
-        href: "https://gullabaybun.com/",
+        href: "https://gullabaybun.com/ku/downloads",
       },
     },
     {
