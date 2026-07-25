@@ -63,6 +63,19 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Keyu Tech",
+      link: "https://keyu.tech/",
+      badges: [],
+      title: "Flutter Application Developer",
+      start: "Apr 2025",
+      end: "now",
+      description:
+        "Working as a Flutter Application Developer at Keyu Tech since April 2025.\n" +
+        "Developing high-performance, cross-platform mobile applications for iOS and Android using Flutter and Dart.\n" +
+        "Implementing clean architecture, robust state management, and seamless API integrations.\n" +
+        "Collaborating closely with designers and backend developers to build intuitive UI/UX and deliver reliable digital products.",
+    },
     // {
     //   company: "Moneta Gift",
     //   badges: [],
@@ -168,21 +181,39 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Gula Baibun Web",
+      title: "SpectraMindGPT",
       techStack: [
-        "Web Developer",
-        "Next.js",
-        "React",
-        "Tailwind CSS",
-        "Framer Motion",
-        "SEO",
-        "Multilingual",
+        "Application Developer",
+        "Flutter",
+        "TeamWork",
+        "State-Managment",
+        "Git/Github",
       ],
       description:
-        "Official marketing and landing website for Gula Baibun language learning app featuring interactive web demos and multi-language support.",
+        "a powerful AI Assistant designed to help you write, plan, code and solve problems with ease.",
       link: {
-        label: "gullabaybun.com",
-        href: "https://gullabaybun.com/",
+        label: "SpectraMindGPT",
+        href: "https://apps.apple.com/us/app/spectramindgpt/id6752674301",
+      },
+    },
+       {
+      title: "مانگ",
+      techStack: [
+        "Application Developer",
+        "Flutter",
+        "Firebase",
+        "Git/Github",
+        "State-Managment",
+        "UI/UX",
+        "Figma",
+      ],
+      description:
+        "Co-Founder and App Developer. focused on Islamic education through quizzes and answers.",
+      link: {
+        label: "مانگ",
+        href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
+        // hrefios:
+        //   "https://apps.apple.com/us/app/%D9%85%D8%A7%D9%86%DA%AF/id6502869446",
       },
     },
     {
@@ -202,40 +233,24 @@ export const RESUME_DATA = {
         href: "https://apps.apple.com/us/app/sawda-pro/id6753111992",
       },
     },
-    {
-      title: "SpectraMindGPT",
+ 
+ 
+       {
+      title: "Gula Baibun Web",
       techStack: [
-        "Application Developer",
-        "Flutter",
-        "TeamWork",
-        "State-Managment",
-        "Git/Github",
+        "Web Developer",
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Framer Motion",
+        "SEO",
+        "Multilingual",
       ],
       description:
-        "a powerful AI Assistant designed to help you write, plan, code and solve problems with ease.",
+        "Official marketing and landing website for Gula Baibun language learning app featuring interactive web demos and multi-language support.",
       link: {
-        label: "SpectraMindGPT",
-        href: "https://apps.apple.com/us/app/spectramindgpt/id6752674301",
-      },
-    },
-    {
-      title: "مانگ",
-      techStack: [
-        "Application Developer",
-        "Flutter",
-        "Firebase",
-        "Git/Github",
-        "State-Managment",
-        "UI/UX",
-        "Figma",
-      ],
-      description:
-        "Co-Founder and App Developer. focused on Islamic education through quizzes and answers.",
-      link: {
-        label: "مانگ",
-        href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
-        // hrefios:
-        //   "https://apps.apple.com/us/app/%D9%85%D8%A7%D9%86%DA%AF/id6502869446",
+        label: "gullabaybun.com",
+        href: "https://gullabaybun.com/",
       },
     },
     {
