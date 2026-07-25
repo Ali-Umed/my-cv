@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   location: "Shawaes, Erbil, iraq",
   locationLink:
     "https://www.google.com/maps/place/36%C2%B015'20.2%22N+44%C2%B006'51.4%22E/@36.2556099,44.1142652,17z/data=!3m1!4b1!4m4!3m3!8m2!3d36.2556099!4d44.1142652?entry=ttu",
-  about: "Software Developer",
+  about: "",
   summary:
     "As a Software Developer, I build fast, intuitive applications using React.js, React Native, Flutter, and Next.js, turning ideas into polished digital products.",
   avatarUrl: "https://avatars.githubusercontent.com/u/138879096?v=4",
@@ -73,8 +73,7 @@ export const RESUME_DATA = {
       description:
         "Working as a Flutter Application Developer at Keyu Tech since April 2025.\n" +
         "Developing high-performance, cross-platform mobile applications for iOS and Android using Flutter and Dart.\n" +
-        "Implementing clean architecture, robust state management, and seamless API integrations.\n" +
-        "Collaborating closely with designers and backend developers to build intuitive UI/UX and deliver reliable digital products.",
+        "Implementing clean architecture, robust state management, and seamless API integrations.",
     },
     // {
     //   company: "Moneta Gift",
@@ -114,7 +113,7 @@ export const RESUME_DATA = {
     //   badges: [],
     //   title: "Data Entry and WordPress Project Developer",
     //   start: "Nov-2024",
-    //   link: "https://www.noon1968.com/",
+    //   link: "https://noon1968.com/en",
     //   description:
     //     "Embarked on a professional journey in 2024 as a Data Entry Specialist and WordPress Project Developer.",
     //   end: "Jan-2025",
@@ -324,17 +323,7 @@ export const RESUME_DATA = {
     },
 
     {
-      title: "Change life travel",
-      techStack: ["Html", "css", "javaScript", "git-github"],
-      description: "",
-      link: {
-        label: "Change life travel",
-        href: "https://cl-travels.com/",
-      },
-    },
-
-    {
-      title: "Noon-1938",
+      title: "Noon-1968",
       techStack: [
         "Data Entry",
         "Wordpress",
@@ -344,10 +333,20 @@ export const RESUME_DATA = {
       ],
       description: "",
       link: {
-        label: "weather-app-tawny-zeta-38.vercel.app",
-        href: "https://www.noon1968.com/",
+        label: "Noon-1968",
+        href: "https://noon1968.com/en",
       },
     },
+    {
+      title: "Change life travel",
+      techStack: ["Html", "css", "javaScript", "git-github"],
+      description: "",
+      link: {
+        label: "Change life travel",
+        href: "https://cl-travels.com/",
+      },
+    },
+
     {
       title: "Weather web application",
       techStack: [
