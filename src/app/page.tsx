@@ -19,78 +19,89 @@ export default function Page() {
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-1 md:p-4">
       <section className="mx-auto w-full max-w-2xl space-y-7 bg-white print:space-y-6">
         <div className="flex items-center justify-between">
-          <div className="flex-1 space-y-1.5">
-            <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className=" max-w-md text-pretty font-mono text-sm text-muted-foreground">
-              {RESUME_DATA.about}
-            </p>
-            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
-              <a
-                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
-                href={RESUME_DATA.locationLink}
-                target="_blank"
-              >
-                <GlobeIcon className="size-3" />
-                {RESUME_DATA.location}
-              </a>
-            </p>
-            <div className="flex  gap-x-1 pt-1 font-mono text-sm text-muted-foreground ">
-              {RESUME_DATA.contact.email ? (
-                <Button
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`mailto:${RESUME_DATA.contact.email}`}>
-                    <MailIcon className="size-4" />
-                  </a>
-                </Button>
-              ) : null}
-              {RESUME_DATA.contact.tel ? (
-                <Button
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                    <PhoneIcon className="size-4" />
-                  </a>
-                </Button>
-              ) : null}
-              {RESUME_DATA.contact.social.map((social) => (
-                <Button
-                  key={social.name}
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={social.url}>
-                    <social.icon className="size-4" />
-                  </a>
-                </Button>
-              ))}
+          <div className="flex-1 space-y-2">
+            <div className="flex items-center justify-between gap-x-4">
+              <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
+              <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground">
+                {RESUME_DATA.contact.email ? (
+                  <Button
+                    className="size-8"
+                    variant="outline"
+                    size="icon"
+                    asChild
+                  >
+                    <a href={`mailto:${RESUME_DATA.contact.email}`} title="Email">
+                      <MailIcon className="size-4" />
+                    </a>
+                  </Button>
+                ) : null}
+                {RESUME_DATA.contact.tel ? (
+                  <Button
+                    className="size-8"
+                    variant="outline"
+                    size="icon"
+                    asChild
+                  >
+                    <a href={`tel:${RESUME_DATA.contact.tel}`} title="Phone">
+                      <PhoneIcon className="size-4" />
+                    </a>
+                  </Button>
+                ) : null}
+                {RESUME_DATA.contact.social.map((social) => (
+                  <Button
+                    key={social.name}
+                    className="size-8"
+                    variant="outline"
+                    size="icon"
+                    asChild
+                  >
+                    <a href={social.url} title={social.name} target="_blank" rel="noopener noreferrer">
+                      <social.icon className="size-4" />
+                    </a>
+                  </Button>
+                ))}
+              </div>
             </div>
-            <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
-              {RESUME_DATA.contact.email ? (
-                <a href={`mailto:${RESUME_DATA.contact.email}`}>
-                  <span className="underline">{RESUME_DATA.contact.email}</span>
+
+            {RESUME_DATA.about ? (
+              <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+                {RESUME_DATA.about}
+              </p>
+            ) : null}
+
+            {/* Location, Phone & Email in the same row with icons */}
+            <div className="flex flex-wrap items-center gap-x-3.5 gap-y-1 font-mono text-xs text-muted-foreground">
+              {RESUME_DATA.location ? (
+                <a
+                  className="inline-flex items-center gap-x-1.5 hover:underline"
+                  href={RESUME_DATA.locationLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GlobeIcon className="size-3" />
+                  {RESUME_DATA.location}
                 </a>
               ) : null}
               {RESUME_DATA.contact.tel ? (
-                <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                  <span className="underline">{RESUME_DATA.contact.tel}</span>
+                <a
+                  className="inline-flex items-center gap-x-1 hover:underline"
+                  href={`tel:${RESUME_DATA.contact.tel}`}
+                >
+                  <PhoneIcon className="size-3" />
+                  {RESUME_DATA.contact.tel}
+                </a>
+              ) : null}
+              {RESUME_DATA.contact.email ? (
+                <a
+                  className="inline-flex items-center gap-x-1 hover:underline"
+                  href={`mailto:${RESUME_DATA.contact.email}`}
+                >
+                  <MailIcon className="size-3" />
+                  {RESUME_DATA.contact.email}
                 </a>
               ) : null}
             </div>
           </div>
-
-          {/* <Avatar className="size-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-            <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-          </Avatar> */}
         </div>
         <Section>
           <h2 className="-mt-3 text-xl font-bold">About</h2>

@@ -78,3 +78,13 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  @page {
+    margin: 10mm;
+  }
+}
